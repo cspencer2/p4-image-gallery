@@ -1,5 +1,9 @@
 /* Your Website Styles */
-
+body {
+  background: url("../img/bg-img.png");
+  margin: 
+  font-family: 'Anaheim', sans-serif;
+}
 
 
 /* Gallery Stying */
@@ -20,7 +24,7 @@
   position: relative;
 }
 .gallery .item {
-  height: 600px;
+  height: 650px;
   overflow: hidden;
   text-align: center;
   /*background: #4d87e2;*/
