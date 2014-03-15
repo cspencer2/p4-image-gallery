@@ -1,15 +1,28 @@
 /* Your Website Styles */
 body {
   background: url("../img/bg-img.png");
-  margin: 
-  font-family: 'Anaheim', sans-serif;
 }
 
+header h1 {
+  background: rgb(179, 226, 252);
+  color: rgb(255, 113, 1);
+  text-align: center;
+  margin-top: -.01%;
+  padding: 10px;
+  border: solid rgb(50, 0, 255);
+  font-family: 'Bitter', serif;
+}
 
 /* Gallery Stying */
+.container {
+  background: rgb(246, 240, 191);
+  border: solid rgb(50, 0, 255);
+}
+
 .gallery .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
+  border: solid rgb(50, 0, 255);
 }
 
 .gallery .control-button:hover {
@@ -45,7 +58,3 @@ body {
 }
 
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
